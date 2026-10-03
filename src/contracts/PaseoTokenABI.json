@@ -1,0 +1,10 @@
+[
+  "function name() view returns (string)",
+  "function symbol() view returns (string)",
+  "function decimals() view returns (uint8)",
+  "function balanceOf(address owner) view returns (uint256)",
+  "function awardPoints(address to, uint256 amount, string reason)",
+  "function redeemReward(address from, uint256 amount, string rewardId)",
+  "event PointsMinted(address indexed to, uint256 amount, string reason)",
+  "event PointsBurned(address indexed from, uint256 amount, string rewardId)"
+]

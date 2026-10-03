@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Sistema visual sobrio inspirado en apple.com:
+ * fondos blanco / gris claro, tipografía grande y limpia, fotografía real
+ * y el verde Paseo Aranjuez como único color de acento.
+ */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --surface: 240 11% 96%; /* #f5f5f7 */
+    --foreground: 240 3% 12%; /* #1d1d1f */
+    --card: 0 0% 100%;
+    --muted: 240 11% 96%;
+    --muted-foreground: 240 2% 43%; /* #6e6e73 */
+    --border: 240 6% 85%; /* #d2d2d7 */
+    --input: 240 6% 80%;
+    --ring: 154 75% 21%;
+    --primary: 154 75% 21%; /* #0D5C3A */
+    --primary-foreground: 0 0% 100%;
+    --link: 154 72% 24%;
+    --gold: 38 62% 38%;
+    --gold-foreground: 0 0% 100%;
+    --success: 152 65% 30%;
+    --danger: 0 72% 46%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --surface: 240 3% 9%; /* #161617 */
+    --foreground: 240 11% 96%; /* #f5f5f7 */
+    --card: 240 3% 11%; /* #1c1c1e */
+    --muted: 240 3% 15%;
+    --muted-foreground: 240 2% 64%; /* #a1a1a6 */
+    --border: 240 2% 22%;
+    --input: 240 2% 28%;
+    --ring: 152 50% 52%;
+    --primary: 152 48% 46%;
+    --primary-foreground: 0 0% 100%;
+    --link: 152 55% 58%;
+    --gold: 40 70% 62%;
+    --gold-foreground: 0 0% 0%;
+    --success: 152 55% 52%;
+    --danger: 0 80% 66%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-background font-sans text-[17px] leading-[1.47] tracking-[-0.022em] text-foreground antialiased;
+  }
+  ::selection {
+    background: hsl(var(--primary) / 0.2);
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer components {
+  /* Tipografía tipo apple.com */
+  .headline {
+    @apply font-display text-[40px] font-semibold leading-[1.08] tracking-[-0.025em] sm:text-[56px];
+  }
+  .title-1 {
+    @apply font-display text-[32px] font-semibold leading-[1.12] tracking-[-0.02em] sm:text-[40px];
+  }
+  .title-2 {
+    @apply font-display text-[24px] font-semibold leading-[1.16] tracking-[-0.015em] sm:text-[28px];
+  }
+  .subhead {
+    @apply text-[19px] leading-[1.35] tracking-[-0.01em] text-muted-foreground sm:text-[21px];
+  }
+  .caption {
+    @apply text-[12px] leading-[1.33] tracking-normal text-muted-foreground;
+  }
+
+  /* Ancho de contenido (apple.com usa ~980–1024 px) */
+  .wrap {
+    @apply mx-auto w-full max-w-[1024px] px-4 sm:px-6;
+  }
+
+  /* Superficies */
+  .tile {
+    @apply relative overflow-hidden rounded-tile bg-card;
+  }
+  .tile-surface {
+    @apply relative overflow-hidden rounded-tile bg-surface;
+  }
+
+  /* Enlace con chevron "Más información ›" */
+  .link {
+    @apply inline-flex items-center gap-0.5 text-link transition hover:underline;
+  }
+
+  .input {
+    @apply h-11 w-full rounded-xl border border-input bg-background px-3.5 text-[17px] text-foreground outline-none transition placeholder:text-muted-foreground focus:border-primary focus:ring-4 focus:ring-primary/15;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+#qr-reader video {
+  object-fit: cover;
+  height: 100% !important;
+}

@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Joaquín Soria",
+      "qrCode": "QR-USR-001",
+      "walletAddress": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "pointsBalance": 500,
+      "role": "client"
+    },
+    {
+      "id": "ADM-01",
+      "name": "Cajero Apple Land",
+      "qrCode": "QR-ADM-01",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "pointsBalance": 0,
+      "role": "merchant",
+      "storeId": "ST-01"
+    },
+    {
+      "id": "ADM-02",
+      "name": "Cajero Cinnabon",
+      "qrCode": "QR-ADM-02",
+      "walletAddress": "0x2222222222222222222222222222222222222222",
+      "pointsBalance": 0,
+      "role": "merchant",
+      "storeId": "ST-02"
+    },
+    {
+      "id": "ADM-03",
+      "name": "Cajero PUMA",
+      "qrCode": "QR-ADM-03",
+      "walletAddress": "0x3333333333333333333333333333333333333333",
+      "pointsBalance": 0,
+      "role": "merchant",
+      "storeId": "ST-03"
+    },
+    {
+      "id": "ADM-04",
+      "name": "Cajero Churros Calientes",
+      "qrCode": "QR-ADM-04",
+      "walletAddress": "0x4444444444444444444444444444444444444444",
+      "pointsBalance": 0,
+      "role": "merchant",
+      "storeId": "ST-04"
+    },
+    {
+      "id": "ADM-05",
+      "name": "Cajero Helados Vacafría",
+      "qrCode": "QR-ADM-05",
+      "walletAddress": "0x5555555555555555555555555555555555555555",
+      "pointsBalance": 0,
+      "role": "merchant",
+      "storeId": "ST-05"
+    }
+  ],
+  "paseoAranjuez": {
+    "stores": [
+      {
+        "id": "ST-01",
+        "name": "Apple Land",
+        "category": "Tecnología",
+        "floor": 2,
+        "locationDetail": "Segundo Piso",
+        "ownerId": "ADM-01",
+        "schedule": "10:00 - 22:00",
+        "bannerUrl": "/img/stores/apple-land/cover.webp",
+        "logoUrl": "/img/stores/apple-land/logo.jpg"
+      },
+      {
+        "id": "ST-02",
+        "name": "Cinnabon",
+        "category": "Gastronomía",
+        "floor": 0,
+        "locationDetail": "Planta Baja",
+        "ownerId": "ADM-02",
+        "schedule": "09:00 - 22:00",
+        "bannerUrl": "/img/stores/cinnabon/cover.jpg",
+        "logoUrl": "/img/stores/cinnabon/logo.webp"
+      },
+      {
+        "id": "ST-03",
+        "name": "PUMA",
+        "category": "Moda",
+        "floor": 0,
+        "locationDetail": "Planta Baja",
+        "ownerId": "ADM-03",
+        "schedule": "10:00 - 22:00",
+        "bannerUrl": "/img/stores/puma/cover.jpg",
+        "logoUrl": "/img/stores/puma/logo.jpg"
+      },
+      {
+        "id": "ST-04",
+        "name": "Churros Calientes",
+        "category": "Gastronomía",
+        "floor": 4,
+        "locationDetail": "Cuarto Piso",
+        "ownerId": "ADM-04",
+        "schedule": "11:00 - 23:00",
+        "bannerUrl": "/img/stores/churros-calientes/cover.jpeg",
+        "logoUrl": "/img/stores/churros-calientes/logo.jpg"
+      },
+      {
+        "id": "ST-05",
+        "name": "Helados Vacafría",
+        "category": "Gastronomía",
+        "floor": 3,
+        "locationDetail": "Tercer Piso",
+        "ownerId": "ADM-05",
+        "schedule": "11:00 - 22:00",
+        "bannerUrl": "/img/stores/helados-vacafria/cover.webp",
+        "logoUrl": "/img/stores/helados-vacafria/logo.webp"
+      }
+    ],
+    "products": [
+      {
+        "id": "P-01",
+        "storeId": "ST-01",
+        "name": "AirPods (3.ª generación)",
+        "description": "Audífonos inalámbricos con audio espacial y estuche de carga. Retíralos hoy en Apple Land.",
+        "price": 1490,
+        "pointsReward": 1490,
+        "stock": 8,
+        "category": "Tecnología"
+      },
+      {
+        "id": "P-02",
+        "storeId": "ST-02",
+        "name": "Classic Roll + Café Americano",
+        "description": "Rol de canela recién horneado con glaseado de queso crema y un café americano.",
+        "price": 38,
+        "pointsReward": 38,
+        "stock": 40,
+        "category": "Gastronomía"
+      },
+      {
+        "id": "P-03",
+        "storeId": "ST-03",
+        "name": "Gorra PUMA Essentials",
+        "description": "Gorra de algodón con logo bordado y cierre ajustable.",
+        "price": 189,
+        "pointsReward": 189,
+        "stock": 15,
+        "category": "Moda"
+      },
+      {
+        "id": "P-04",
+        "storeId": "ST-04",
+        "name": "Sándwich de carne mechada",
+        "description": "Pan artesanal a la plancha, carne mechada y queso cheddar, con papas fritas y ensalada.",
+        "price": 45,
+        "pointsReward": 45,
+        "stock": 30,
+        "category": "Gastronomía",
+        "imageUrl": "/img/stores/churros-calientes/g4.webp"
+      },
+      {
+        "id": "P-05",
+        "storeId": "ST-04",
+        "name": "Picada para compartir",
+        "description": "Lomo, chorizo y camarones salteados, yuca frita, ensalada y cuatro salsas de la casa.",
+        "price": 95,
+        "pointsReward": 95,
+        "stock": 20,
+        "category": "Gastronomía",
+        "imageUrl": "/img/stores/churros-calientes/g5.webp"
+      },
+      {
+        "id": "P-06",
+        "storeId": "ST-04",
+        "name": "Costillas de cerdo BBQ",
+        "description": "Costillas glaseadas en salsa barbacoa, papas fritas y ensalada fresca.",
+        "price": 85,
+        "pointsReward": 85,
+        "stock": 20,
+        "category": "Gastronomía",
+        "imageUrl": "/img/stores/churros-calientes/g11.webp"
+      },
+      {
+        "id": "P-07",
+        "storeId": "ST-05",
+        "name": "Helado doble en canasta de waffle",
+        "description": "Dos bolas de helado artesanal a elección, servidas en canasta de waffle crocante.",
+        "price": 28,
+        "pointsReward": 28,
+        "stock": 50,
+        "category": "Gastronomía",
+        "imageUrl": "/img/stores/helados-vacafria/g1.webp"
+      }
+    ],
+    "rewardsCatalog": [
+      {
+        "id": "RW-01",
+        "costInPoints": 150,
+        "title": "Café Americano gratis",
+        "description": "Válido en Cinnabon, Planta Baja. Presenta el cupón en caja.",
+        "storeId": "ST-02",
+        "imageUrl": "/img/stores/cinnabon/cover.jpg"
+      },
+      {
+        "id": "RW-04",
+        "costInPoints": 120,
+        "title": "Helado simple de cortesía",
+        "description": "Una bola de helado artesanal en Helados Vacafría, Tercer Piso.",
+        "storeId": "ST-05",
+        "imageUrl": "/img/stores/helados-vacafria/g1.webp"
+      },
+      {
+        "id": "RW-02",
+        "costInPoints": 300,
+        "title": "15% de descuento en accesorios",
+        "description": "Aplicable en compras mayores a 200 Bs en Apple Land.",
+        "storeId": "ST-01",
+        "imageUrl": "/img/stores/apple-land/cover.webp"
+      },
+      {
+        "id": "RW-03",
+        "costInPoints": 500,
+        "title": "Estacionamiento VIP, 2 horas",
+        "description": "Acceso libre al estacionamiento subterráneo de Paseo Aranjuez.",
+        "storeId": "PASEO",
+        "imageUrl": "/img/paseo-edificio.jpg"
+      }
+    ],
+    "orders": [
+      {
+        "orderId": "ORD-100",
+        "userId": "USR-001",
+        "userName": "Joaquín Soria",
+        "storeId": "ST-01",
+        "storeName": "Apple Land",
+        "productId": "P-01",
+        "productName": "AirPods (3.ª generación)",
+        "totalPrice": 1490,
+        "pointsToEarn": 1490,
+        "status": "Listo para recoger",
+        "pickupPin": "8452",
+        "pickupQrCode": "ORDER-ORD-100-PIN-8452"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1301 @@
+[
+  {
+    "id": 10,
+    "slug": "bold",
+    "name": "Bold",
+    "floor": 0,
+    "categories": [
+      "Calzado"
+    ],
+    "image": "/img/stores/bold/cover.jpg",
+    "logo": "/img/stores/bold/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Boldshoesbolivia",
+      "instagram": "https://www.instagram.com/Boldshoesbolivia/",
+      "whatsapp": "https://wa.me/59160700526"
+    }
+  },
+  {
+    "id": 11,
+    "slug": "cinnabon",
+    "name": "Cinnabon",
+    "floor": 0,
+    "categories": [
+      "Comida"
+    ],
+    "image": "/img/stores/cinnabon/cover.jpg",
+    "logo": "/img/stores/cinnabon/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/CinnabonBolivia",
+      "instagram": "https://www.instagram.com/Cinnabonbolivia",
+      "whatsapp": "https://wa.me/59172120490"
+    }
+  },
+  {
+    "id": 12,
+    "slug": "face-phone",
+    "name": "Face Phone",
+    "floor": 0,
+    "categories": [
+      "Tecnología"
+    ],
+    "image": "/img/stores/face-phone/cover.jpg",
+    "logo": "/img/stores/face-phone/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/FacePhone-150486788716042",
+      "instagram": "https://www.instagram.com/Facephone_2020",
+      "whatsapp": "https://wa.me/59175979221"
+    }
+  },
+  {
+    "id": 8,
+    "slug": "fair-play-kids",
+    "name": "Fair Play Kids",
+    "floor": 0,
+    "categories": [
+      "Juguetería"
+    ],
+    "image": "/img/stores/fair-play-kids/cover.jpg",
+    "logo": "/img/stores/fair-play-kids/logo.png",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/FairPlayKids.Bo",
+      "instagram": "https://www.instagram.com/fairplay_kids/",
+      "whatsapp": "https://wa.me/59178701212"
+    }
+  },
+  {
+    "id": 81,
+    "slug": "floristeria-flor-de-amor",
+    "name": "Floristeria Flor de Amor",
+    "floor": 0,
+    "categories": [],
+    "image": "/img/stores/floristeria-flor-de-amor/cover.webp",
+    "logo": "/img/stores/floristeria-flor-de-amor/logo.webp",
+    "gallery": [],
+    "social": {
+      "instagram": "https://www.instagram.com/flordeamorfloristeria/",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=59160389995"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "hauscenter",
+    "name": "Hauscenter",
+    "floor": 0,
+    "categories": [
+      "Hogar"
+    ],
+    "image": "/img/stores/hauscenter/cover.jpg",
+    "logo": "/img/stores/hauscenter/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Hauscenter.Bolivia",
+      "instagram": "https://www.instagram.com/hauscenterbo/",
+      "whatsapp": "https://wa.me/59165069921"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "joyeria-imperio",
+    "name": "Joyería Imperio",
+    "floor": 0,
+    "categories": [
+      "Joyería"
+    ],
+    "image": "/img/stores/joyeria-imperio/cover.jpg",
+    "logo": "/img/stores/joyeria-imperio/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=61559741667037",
+      "instagram": "https://www.instagram.com/joyerias_.imperio._/",
+      "whatsapp": "https://wa.me/59160701253"
+    }
+  },
+  {
+    "id": 1,
+    "slug": "legend",
+    "name": "Legend",
+    "floor": 0,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/legend/cover.webp",
+    "logo": "/img/stores/legend/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/legendbolivia",
+      "instagram": "https://www.instagram.com/bolivialegend/",
+      "whatsapp": "https://wa.me/59160700526"
+    }
+  },
+  {
+    "id": 9,
+    "slug": "lili-pink",
+    "name": "Lili Pink",
+    "floor": 0,
+    "categories": [
+      "Ropa Interior"
+    ],
+    "image": "/img/stores/lili-pink/cover.jpg",
+    "logo": "/img/stores/lili-pink/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/lilipinkbol",
+      "instagram": "https://www.instagram.com/lilipinkbol/",
+      "whatsapp": "https://wa.me/59178561233"
+    }
+  },
+  {
+    "id": 13,
+    "slug": "pauker",
+    "name": "Pauker",
+    "floor": 0,
+    "categories": [
+      "�\u001cptica"
+    ],
+    "image": "/img/stores/pauker/cover.jpg",
+    "logo": "/img/stores/pauker/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/OpticasPaukerBolivia",
+      "instagram": "https://www.instagram.com/Opticaspaukerbolivia",
+      "whatsapp": "https://wa.me/59177000207"
+    }
+  },
+  {
+    "id": 5,
+    "slug": "puma",
+    "name": "PUMA",
+    "floor": 0,
+    "categories": [
+      "Deportes"
+    ],
+    "image": "/img/stores/puma/cover.jpg",
+    "logo": "/img/stores/puma/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/PUMALATAM/",
+      "instagram": "https://www.instagram.com/puma._latam/"
+    }
+  },
+  {
+    "id": 6,
+    "slug": "tuctuc",
+    "name": "TucTuc",
+    "floor": 0,
+    "categories": [
+      "Ropa Infantil"
+    ],
+    "image": "/img/stores/tuctuc/cover.jpg",
+    "logo": "/img/stores/tuctuc/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/TucTucBolivia",
+      "instagram": "https://www.instagram.com/tuctuc_bolivia/",
+      "whatsapp": "https://wa.me/59177900199"
+    }
+  },
+  {
+    "id": 32,
+    "slug": "amore",
+    "name": "Amore",
+    "floor": 1,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/amore/cover.webp",
+    "logo": "/img/stores/amore/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/amorebolivia",
+      "instagram": "https://www.instagram.com/amorebolivia/",
+      "whatsapp": "https://wa.me/59172732745"
+    }
+  },
+  {
+    "id": 18,
+    "slug": "atractiva-makeup",
+    "name": "Atractiva Makeup",
+    "floor": 1,
+    "categories": [
+      "Cosméticos"
+    ],
+    "image": "/img/stores/atractiva-makeup/cover.webp",
+    "logo": "/img/stores/atractiva-makeup/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/p/Atractiva-Makeup-100026634656071",
+      "instagram": "https://www.instagram.com/atractiva_make_up",
+      "whatsapp": "https://wa.me/59175922510"
+    }
+  },
+  {
+    "id": 83,
+    "slug": "belu-boutique",
+    "name": "BELU Boutique",
+    "floor": 1,
+    "categories": [],
+    "image": "/img/stores/belu-boutique/cover.webp",
+    "logo": "/img/stores/belu-boutique/logo.webp",
+    "gallery": [],
+    "social": {
+      "instagram": "https://www.instagram.com/belu.bol/",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=59161684849&text&type=phone_number&app_absent=0"
+    }
+  },
+  {
+    "id": 20,
+    "slug": "blanc-et-blanc-joyas-de-autor",
+    "name": "BLANC ET BLANC - Joyas de Autor",
+    "floor": 1,
+    "categories": [
+      "Joyería"
+    ],
+    "image": "/img/stores/blanc-et-blanc-joyas-de-autor/cover.webp",
+    "logo": "/img/stores/blanc-et-blanc-joyas-de-autor/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100094358344738",
+      "instagram": "https://www.instagram.com/blancetblanc_joyasdeautor/",
+      "whatsapp": "https://wa.me/59162697007"
+    }
+  },
+  {
+    "id": 25,
+    "slug": "burbank",
+    "name": "Burbank",
+    "floor": 1,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/burbank/cover.webp",
+    "logo": "/img/stores/burbank/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/burbank.bo",
+      "instagram": "https://www.instagram.com/burbank.bo/",
+      "whatsapp": "https://wa.me/59175881040"
+    }
+  },
+  {
+    "id": 26,
+    "slug": "cosbelle",
+    "name": "Cosbelle",
+    "floor": 1,
+    "categories": [
+      "Cosméticos"
+    ],
+    "image": "/img/stores/cosbelle/cover.webp",
+    "logo": "/img/stores/cosbelle/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/perfumeriacosbelle",
+      "instagram": "https://www.instagram.com/perfumeriacosbelle/",
+      "whatsapp": "https://wa.me/59174560116"
+    }
+  },
+  {
+    "id": 28,
+    "slug": "hermassi",
+    "name": "Hermassi",
+    "floor": 1,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/hermassi/cover.webp",
+    "logo": "/img/stores/hermassi/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Hermassi.bo",
+      "instagram": "https://www.instagram.com/hermassi.bolivia/",
+      "whatsapp": "https://wa.me/59168489382"
+    }
+  },
+  {
+    "id": 29,
+    "slug": "impulse",
+    "name": "Impulse",
+    "floor": 1,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/impulse/cover.webp",
+    "logo": "/img/stores/impulse/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Impulse.Bo",
+      "instagram": "https://www.instagram.com/impulse_oficial/",
+      "whatsapp": "https://wa.me/59161681735"
+    }
+  },
+  {
+    "id": 15,
+    "slug": "kosi-jeans",
+    "name": "KOSI Jeans",
+    "floor": 1,
+    "categories": [
+      "Jeans"
+    ],
+    "image": "/img/stores/kosi-jeans/cover.webp",
+    "logo": "/img/stores/kosi-jeans/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/DOREK.JEANS",
+      "instagram": "https://www.instagram.com/kosi_jeans/",
+      "whatsapp": "https://wa.me/59178181385"
+    }
+  },
+  {
+    "id": 30,
+    "slug": "maybelline",
+    "name": "Maybelline",
+    "floor": 1,
+    "categories": [
+      "Cosméticos"
+    ],
+    "image": "/img/stores/maybelline/cover.webp",
+    "logo": "/img/stores/maybelline/logo.webp",
+    "gallery": [],
+    "social": {
+      "instagram": "https://www.instagram.com/maybellinenybolivia/",
+      "whatsapp": "https://wa.me/59177440903"
+    }
+  },
+  {
+    "id": 76,
+    "slug": "miski-simi",
+    "name": "Miski Simi",
+    "floor": 1,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/miski-simi/cover.webp",
+    "logo": "/img/stores/miski-simi/logo.png",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/miskisimibo",
+      "instagram": "https://www.instagram.com/miskisimibo/"
+    }
+  },
+  {
+    "id": 19,
+    "slug": "muy-mimados",
+    "name": "Muy Mimados",
+    "floor": 1,
+    "categories": [
+      "Juguetería"
+    ],
+    "image": "/img/stores/muy-mimados/cover.webp",
+    "logo": "/img/stores/muy-mimados/logo.png",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/MuyMimados/",
+      "instagram": "https://www.instagram.com/MuyMimados",
+      "whatsapp": "https://wa.me/59172274400"
+    }
+  },
+  {
+    "id": 22,
+    "slug": "pacha",
+    "name": "PACHA",
+    "floor": 1,
+    "categories": [
+      "Relojería"
+    ],
+    "image": "/img/stores/pacha/cover.webp",
+    "logo": "/img/stores/pacha/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/p/PACHA-100093196026734/",
+      "instagram": "https://www.instagram.com/pacharelojes/",
+      "whatsapp": "https://wa.me/59167410148"
+    }
+  },
+  {
+    "id": 17,
+    "slug": "sajama",
+    "name": "Sajama",
+    "floor": 1,
+    "categories": [
+      "Artesanías"
+    ],
+    "image": "/img/stores/sajama/cover.webp",
+    "logo": "/img/stores/sajama/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/sajama.bo",
+      "instagram": "https://www.instagram.com/sajama_bo",
+      "whatsapp": "https://wa.me/59177514384"
+    }
+  },
+  {
+    "id": 21,
+    "slug": "sassy-cherry",
+    "name": "Sassy Cherry",
+    "floor": 1,
+    "categories": [
+      "Accesorios"
+    ],
+    "image": "/img/stores/sassy-cherry/cover.webp",
+    "logo": "/img/stores/sassy-cherry/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Sassycherr/",
+      "instagram": "https://www.instagram.com/sassycherry_store/",
+      "whatsapp": "https://wa.me/59179600545"
+    }
+  },
+  {
+    "id": 31,
+    "slug": "sento",
+    "name": "Sento",
+    "floor": 1,
+    "categories": [
+      "Cosméticos"
+    ],
+    "image": "/img/stores/sento/cover.webp",
+    "logo": "/img/stores/sento/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/comedica",
+      "instagram": "https://www.instagram.com/sento.comedica/",
+      "whatsapp": "https://wa.me/59170349617"
+    }
+  },
+  {
+    "id": 82,
+    "slug": "status",
+    "name": "Status",
+    "floor": 1,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/status/cover.webp",
+    "logo": "/img/stores/status/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100071756373050",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=59178339491",
+      "instagram": "https://www.instagram.com/status_bolivia_/"
+    }
+  },
+  {
+    "id": 77,
+    "slug": "tuc-toys-tu-jugueteria",
+    "name": "TUC TOYS tu jugueteria",
+    "floor": 1,
+    "categories": [
+      "Juguetería"
+    ],
+    "image": "/img/stores/tuc-toys-tu-jugueteria/cover.webp",
+    "logo": "/img/stores/tuc-toys-tu-jugueteria/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/homebabyandtoys",
+      "instagram": "https://www.instagram.com/tuc_toys_tujugueteria/",
+      "whatsapp": "https://wa.me/59177915434"
+    }
+  },
+  {
+    "id": 41,
+    "slug": "alto-cavaliere",
+    "name": "Alto Cavaliere",
+    "floor": 2,
+    "categories": [
+      "Ropa",
+      "de",
+      "Hombre"
+    ],
+    "image": "/img/stores/alto-cavaliere/cover.webp",
+    "logo": "/img/stores/alto-cavaliere/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Altocavalierebolivia",
+      "instagram": "https://www.instagram.com/altocavaliere",
+      "whatsapp": "https://wa.me/59162693166"
+    }
+  },
+  {
+    "id": 36,
+    "slug": "apple-land",
+    "name": "Apple Land",
+    "floor": 2,
+    "categories": [
+      "Tecnología"
+    ],
+    "image": "/img/stores/apple-land/cover.webp",
+    "logo": "/img/stores/apple-land/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/applelandbolivia/",
+      "instagram": "https://www.instagram.com/apple_land_bolivia/",
+      "whatsapp": "https://wa.me/59168609050"
+    }
+  },
+  {
+    "id": 38,
+    "slug": "ayvanna-rever-bolivia",
+    "name": "Ayvanna Rever Bolivia",
+    "floor": 2,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/ayvanna-rever-bolivia/cover.webp",
+    "logo": "/img/stores/ayvanna-rever-bolivia/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/ayvannarever.bo/",
+      "instagram": "https://www.instagram.com/ayvannarever.bo/",
+      "whatsapp": "https://wa.me/59169257662"
+    }
+  },
+  {
+    "id": 42,
+    "slug": "baby-corp",
+    "name": "Baby Corp",
+    "floor": 2,
+    "categories": [
+      "Bebés"
+    ],
+    "image": "/img/stores/baby-corp/cover.webp",
+    "logo": "/img/stores/baby-corp/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/babycorpbolivia",
+      "instagram": "https://www.instagram.com/Babycorp_bolivia/",
+      "whatsapp": "https://wa.me/59177661496"
+    }
+  },
+  {
+    "id": 84,
+    "slug": "bolivia-fitness",
+    "name": "Bolivia Fitness",
+    "floor": 2,
+    "categories": [],
+    "image": "/img/stores/bolivia-fitness/cover.webp",
+    "logo": "/img/stores/bolivia-fitness/logo.webp",
+    "gallery": [],
+    "social": {
+      "instagram": "https://www.instagram.com/boliviafitness",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=59169207033&text&type=phone_number&app_absent=0",
+      "facebook": "https://www.facebook.com/Boliviafitnessbol/"
+    }
+  },
+  {
+    "id": 43,
+    "slug": "cotton-viu",
+    "name": "Cotton Viu",
+    "floor": 2,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/cotton-viu/cover.webp",
+    "logo": "/img/stores/cotton-viu/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/cotton.viu2",
+      "instagram": "https://www.instagram.com/cotton_viu/",
+      "whatsapp": "https://wa.me/59170122610"
+    }
+  },
+  {
+    "id": 44,
+    "slug": "crocs",
+    "name": "Crocs",
+    "floor": 2,
+    "categories": [
+      "Calzado"
+    ],
+    "image": "/img/stores/crocs/cover.webp",
+    "logo": "/img/stores/crocs/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/crocsbolivia",
+      "instagram": "https://www.instagram.com/Crocsbolivia",
+      "whatsapp": "https://wa.me/59176020826"
+    }
+  },
+  {
+    "id": 34,
+    "slug": "culture-men",
+    "name": "Culture Men",
+    "floor": 2,
+    "categories": [
+      "Ropa",
+      "de",
+      "Hombre"
+    ],
+    "image": "/img/stores/culture-men/cover.webp",
+    "logo": "/img/stores/culture-men/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/CULTUREmens",
+      "instagram": "https://www.instagram.com/culture_men_/",
+      "whatsapp": "https://wa.me/59160351303"
+    }
+  },
+  {
+    "id": 39,
+    "slug": "deaguayo",
+    "name": "DEAGUAYO",
+    "floor": 2,
+    "categories": [
+      "Artesanías"
+    ],
+    "image": "/img/stores/deaguayo/cover.webp",
+    "logo": "/img/stores/deaguayo/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/DeAguayoBolivia/",
+      "instagram": "https://www.instagram.com/deaguayobolivia",
+      "whatsapp": "https://wa.me/59167070260"
+    }
+  },
+  {
+    "id": 45,
+    "slug": "e-e-lenceria",
+    "name": "E&E Lenceria",
+    "floor": 2,
+    "categories": [
+      "Lencería"
+    ],
+    "image": "/img/stores/e-e-lenceria/cover.webp",
+    "logo": "/img/stores/e-e-lenceria/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Eyelenceria",
+      "instagram": "https://www.instagram.com/Eyelenceria",
+      "whatsapp": "https://wa.me/59169437573"
+    }
+  },
+  {
+    "id": 46,
+    "slug": "fossil",
+    "name": "Fossil",
+    "floor": 2,
+    "categories": [
+      "Relojería"
+    ],
+    "image": "/img/stores/fossil/cover.webp",
+    "logo": "/img/stores/fossil/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/fossilblaalva",
+      "instagram": "https://www.instagram.com/Fossilbolivia",
+      "whatsapp": "https://wa.me/59165723208"
+    }
+  },
+  {
+    "id": 47,
+    "slug": "game-shop",
+    "name": "Game Shop",
+    "floor": 2,
+    "categories": [
+      "Juegos"
+    ],
+    "image": "/img/stores/game-shop/cover.webp",
+    "logo": "/img/stores/game-shop/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/gameshopcbba",
+      "instagram": "https://www.instagram.com/Gameshopcbba",
+      "whatsapp": "https://wa.me/59170779587"
+    }
+  },
+  {
+    "id": 35,
+    "slug": "joyas-diego",
+    "name": "Joyas DIEGO",
+    "floor": 2,
+    "categories": [
+      "Joyería"
+    ],
+    "image": "/img/stores/joyas-diego/cover.webp",
+    "logo": "/img/stores/joyas-diego/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/p/Joyas-DIEGO-100063679924817/",
+      "instagram": "https://www.tiktok.com/@joyas.diego.cbba",
+      "whatsapp": "https://wa.me/59176414401"
+    }
+  },
+  {
+    "id": 40,
+    "slug": "mr-mrs-fragrance",
+    "name": "Mr&Mrs Fragrance",
+    "floor": 2,
+    "categories": [
+      "Perfumería"
+    ],
+    "image": "/img/stores/mr-mrs-fragrance/cover.webp",
+    "logo": "/img/stores/mr-mrs-fragrance/logo.jpg",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/mrmrsfragrancebo/",
+      "instagram": "https://www.instagram.com/mrandmrsfragranceofficial/",
+      "whatsapp": "https://wa.me/59162620079"
+    }
+  },
+  {
+    "id": 79,
+    "slug": "nails-express-gel",
+    "name": "Nails Express Gel",
+    "floor": 2,
+    "categories": [
+      "Cuidado",
+      "personal"
+    ],
+    "image": "/img/stores/nails-express-gel/cover.webp",
+    "logo": "/img/stores/nails-express-gel/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/p/Nails-Express-Gel-100063509291580/",
+      "instagram": "https://www.instagram.com/nails.express.gel/",
+      "whatsapp": "https://wa.me/59160714119"
+    }
+  },
+  {
+    "id": 48,
+    "slug": "tigo",
+    "name": "Tigo",
+    "floor": 2,
+    "categories": [
+      "Telecomunicaciones"
+    ],
+    "image": "/img/stores/tigo/cover.webp",
+    "logo": "/img/stores/tigo/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/BoliviaTigo",
+      "instagram": "https://www.instagram.com/tigobol/",
+      "whatsapp": "https://wa.me/59176600300"
+    }
+  },
+  {
+    "id": 49,
+    "slug": "top-collection",
+    "name": "Top Collection",
+    "floor": 2,
+    "categories": [
+      "Ropa"
+    ],
+    "image": "/img/stores/top-collection/cover.webp",
+    "logo": "/img/stores/top-collection/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/TopCollectionBolivia",
+      "instagram": "https://www.instagram.com/Top_collection_bolivia",
+      "whatsapp": "https://wa.me/59176961145"
+    }
+  },
+  {
+    "id": 50,
+    "slug": "totto",
+    "name": "Totto",
+    "floor": 2,
+    "categories": [
+      "Ropa",
+      "y",
+      "Accesorios"
+    ],
+    "image": "/img/stores/totto/cover.webp",
+    "logo": "/img/stores/totto/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/totto.bolivia",
+      "instagram": "https://www.instagram.com/Home.select_paseo.aranjuez",
+      "whatsapp": "https://wa.me/59178983491"
+    }
+  },
+  {
+    "id": 65,
+    "slug": "acai-golden",
+    "name": "Açaí Golden",
+    "floor": 3,
+    "categories": [
+      "helado",
+      "postre",
+      "dulce"
+    ],
+    "image": "/img/stores/acai-golden/cover.webp",
+    "logo": "/img/stores/acai-golden/logo.webp",
+    "gallery": [
+      "/img/stores/acai-golden/g1.webp",
+      "/img/stores/acai-golden/g2.webp",
+      "/img/stores/acai-golden/g3.webp",
+      "/img/stores/acai-golden/g4.webp",
+      "/img/stores/acai-golden/g5.webp",
+      "/img/stores/acai-golden/g6.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/acaigolden10/",
+      "instagram": "https://www.instagram.com/_acaigolden/",
+      "whatsapp": "https://wa.me/59161787485"
+    }
+  },
+  {
+    "id": 68,
+    "slug": "almacen-de-pizzas",
+    "name": "Almacén de Pizzas",
+    "floor": 3,
+    "categories": [
+      "pizzas"
+    ],
+    "image": "/img/stores/almacen-de-pizzas/cover.webp",
+    "logo": "/img/stores/almacen-de-pizzas/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/almacendepizzasbo/",
+      "instagram": "https://www.instagram.com/almacendepizzasbo/",
+      "whatsapp": "https://wa.me/59176912142"
+    }
+  },
+  {
+    "id": 66,
+    "slug": "bypass-burger",
+    "name": "Bypass Burger",
+    "floor": 3,
+    "categories": [
+      "hamburguesa",
+      "sandwich",
+      "lomito"
+    ],
+    "image": "/img/stores/bypass-burger/cover.webp",
+    "logo": "/img/stores/bypass-burger/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100086464282347",
+      "instagram": "https://www.instagram.com/bypassburgerbo/",
+      "whatsapp": "https://wa.me/59169030766"
+    }
+  },
+  {
+    "id": 88,
+    "slug": "chotto-matte",
+    "name": "Chotto Matte",
+    "floor": 3,
+    "categories": [],
+    "image": "/img/stores/chotto-matte/cover.webp",
+    "logo": "/img/stores/chotto-matte/logo.webp",
+    "gallery": [],
+    "social": {
+      "instagram": "https://www.instagram.com/chotto_matte591/",
+      "whatsapp": "https://www.whatsapp.com/catalog/59176097602/?app_absent=0",
+      "facebook": "https://www.facebook.com/chottomattecbba16"
+    }
+  },
+  {
+    "id": 90,
+    "slug": "deli-stambul",
+    "name": "Deli Stambul",
+    "floor": 3,
+    "categories": [],
+    "image": "/img/stores/deli-stambul/cover.webp",
+    "logo": "/img/stores/deli-stambul/logo.webp",
+    "gallery": [
+      "/img/stores/deli-stambul/g1.webp",
+      "/img/stores/deli-stambul/g2.webp",
+      "/img/stores/deli-stambul/g3.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/DeliStanbul",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=59177227023"
+    }
+  },
+  {
+    "id": 67,
+    "slug": "flavor-burst",
+    "name": "Flavor Burst",
+    "floor": 3,
+    "categories": [
+      "helados",
+      "frapes",
+      "café"
+    ],
+    "image": "/img/stores/flavor-burst/cover.webp",
+    "logo": "/img/stores/flavor-burst/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/flavorburstbolivia",
+      "instagram": "https://www.instagram.com/flavor_burst_bolivia/"
+    }
+  },
+  {
+    "id": 91,
+    "slug": "helados-vacafria",
+    "name": "Helados Vacafría",
+    "floor": 3,
+    "categories": [],
+    "image": "/img/stores/helados-vacafria/cover.webp",
+    "logo": "/img/stores/helados-vacafria/logo.webp",
+    "gallery": [
+      "/img/stores/helados-vacafria/g1.webp",
+      "/img/stores/helados-vacafria/g2.webp",
+      "/img/stores/helados-vacafria/g3.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/vacafria",
+      "instagram": "https://www.instagram.com/vacafria/?hl=es"
+    }
+  },
+  {
+    "id": 86,
+    "slug": "hoy-hay",
+    "name": "HOY HAY",
+    "floor": 3,
+    "categories": [],
+    "image": "/img/stores/hoy-hay/cover.webp",
+    "logo": "/img/stores/hoy-hay/logo.webp",
+    "gallery": [
+      "/img/stores/hoy-hay/g1.webp",
+      "/img/stores/hoy-hay/g2.webp",
+      "/img/stores/hoy-hay/g3.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/cafeteriaespecialidadmercadito",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=59169537021",
+      "instagram": "https://www.instagram.com/hoyhay.bo"
+    }
+  },
+  {
+    "id": 61,
+    "slug": "la-sangucheria-cafe",
+    "name": "La Sanguchería Cafe",
+    "floor": 3,
+    "categories": [
+      "sandwich",
+      "hamburguesa",
+      "pollo",
+      "carne"
+    ],
+    "image": "/img/stores/la-sangucheria-cafe/cover.webp",
+    "logo": "/img/stores/la-sangucheria-cafe/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/lasangucheriarl/",
+      "instagram": "https://www.instagram.com/lasangucheria_cafe",
+      "whatsapp": "https://wa.me/59175750520"
+    }
+  },
+  {
+    "id": 87,
+    "slug": "parrilleros",
+    "name": "PARRILLEROS",
+    "floor": 3,
+    "categories": [],
+    "image": "/img/stores/parrilleros/cover.webp",
+    "logo": "/img/stores/parrilleros/logo.webp",
+    "gallery": [],
+    "social": {
+      "instagram": "https://www.instagram.com/parrilleros_de_full_brasa/"
+    }
+  },
+  {
+    "id": 89,
+    "slug": "pawitos",
+    "name": "Pawitos",
+    "floor": 3,
+    "categories": [],
+    "image": "/img/stores/pawitos/cover.webp",
+    "logo": "/img/stores/pawitos/logo.webp",
+    "gallery": [
+      "/img/stores/pawitos/g1.webp",
+      "/img/stores/pawitos/g2.webp",
+      "/img/stores/pawitos/g3.webp"
+    ],
+    "social": {
+      "tiktok": "https://www.tiktok.com/@cafeteria_pawitos",
+      "instagram": "https://www.instagram.com/cafeteria_pawitos/"
+    }
+  },
+  {
+    "id": 74,
+    "slug": "solo-pastas",
+    "name": "Solo Pastas",
+    "floor": 3,
+    "categories": [
+      "pastas"
+    ],
+    "image": "/img/stores/solo-pastas/cover.webp",
+    "logo": "/img/stores/solo-pastas/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/solopastas.PaseoAranjuez/",
+      "instagram": "https://www.instagram.com/solopastascochabamba/",
+      "whatsapp": "https://wa.me/59177498891"
+    }
+  },
+  {
+    "id": 62,
+    "slug": "tunari-express",
+    "name": "Tunari Express",
+    "floor": 3,
+    "categories": [
+      "carne",
+      "charque",
+      "pique",
+      "chorizo",
+      "nacional"
+    ],
+    "image": "/img/stores/tunari-express/cover.webp",
+    "logo": "/img/stores/tunari-express/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/Tunarielprado/",
+      "instagram": "https://www.instagram.com/tunarioficial/",
+      "whatsapp": "https://wa.me/59177644234"
+    }
+  },
+  {
+    "id": 60,
+    "slug": "waffle-king",
+    "name": "Waffle King",
+    "floor": 3,
+    "categories": [
+      "waffle",
+      "postres",
+      "helado"
+    ],
+    "image": "/img/stores/waffle-king/cover.webp",
+    "logo": "/img/stores/waffle-king/logo.webp",
+    "gallery": [],
+    "social": {
+      "tiktok": "https://www.tiktok.com/@waffleking.bo"
+    }
+  },
+  {
+    "id": 85,
+    "slug": "yummy-candy-bar",
+    "name": "Yummy Candy Bar",
+    "floor": 3,
+    "categories": [],
+    "image": "/img/stores/yummy-candy-bar/cover.webp",
+    "logo": "/img/stores/yummy-candy-bar/logo.webp",
+    "gallery": [
+      "/img/stores/yummy-candy-bar/g1.webp",
+      "/img/stores/yummy-candy-bar/g2.webp",
+      "/img/stores/yummy-candy-bar/g3.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=61573740985305",
+      "whatsapp": "https://api.whatsapp.com/send?phone=59173752885",
+      "instagram": "https://www.instagram.com/yummy_candy_bar/"
+    }
+  },
+  {
+    "id": 52,
+    "slug": "brocheta-king",
+    "name": "Brocheta King",
+    "floor": 4,
+    "categories": [
+      "brocheta",
+      "carne",
+      "jugos",
+      "cerveza",
+      "pique",
+      "frapes"
+    ],
+    "image": "/img/stores/brocheta-king/cover.jpeg",
+    "logo": "/img/stores/brocheta-king/logo.jpg",
+    "gallery": [
+      "/img/stores/brocheta-king/g1.webp",
+      "/img/stores/brocheta-king/g2.webp",
+      "/img/stores/brocheta-king/g3.webp",
+      "/img/stores/brocheta-king/g4.webp",
+      "/img/stores/brocheta-king/g5.webp",
+      "/img/stores/brocheta-king/g6.webp",
+      "/img/stores/brocheta-king/g7.webp",
+      "/img/stores/brocheta-king/g8.webp",
+      "/img/stores/brocheta-king/g9.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/BrochetaKing/",
+      "instagram": "https://www.instagram.com/brochetaking/",
+      "whatsapp": "https://wa.me/59162210506"
+    }
+  },
+  {
+    "id": 55,
+    "slug": "cayenna",
+    "name": "CAYENNA",
+    "floor": 4,
+    "categories": [
+      "coctel",
+      "tragos",
+      "carne",
+      "brownies",
+      "jugos",
+      "nachos"
+    ],
+    "image": "/img/stores/cayenna/cover.jpeg",
+    "logo": "/img/stores/cayenna/logo.png",
+    "gallery": [
+      "/img/stores/cayenna/g1.webp",
+      "/img/stores/cayenna/g2.webp",
+      "/img/stores/cayenna/g3.webp",
+      "/img/stores/cayenna/g4.webp",
+      "/img/stores/cayenna/g5.webp",
+      "/img/stores/cayenna/g6.webp",
+      "/img/stores/cayenna/g7.webp",
+      "/img/stores/cayenna/g8.webp",
+      "/img/stores/cayenna/g9.webp",
+      "/img/stores/cayenna/g10.webp",
+      "/img/stores/cayenna/g11.webp",
+      "/img/stores/cayenna/g12.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/Cayenna.BistroCafe/",
+      "instagram": "https://www.instagram.com/cayenna.bistrocafe/",
+      "whatsapp": "https://wa.me/59170346760"
+    }
+  },
+  {
+    "id": 92,
+    "slug": "chipotle-mexican-food",
+    "name": "Chipotle Mexican Food",
+    "floor": 4,
+    "categories": [],
+    "image": "/img/stores/chipotle-mexican-food/cover.webp",
+    "logo": "/img/stores/chipotle-mexican-food/logo.webp",
+    "gallery": [],
+    "social": {
+      "facebook": "https://www.facebook.com/SaborChipotleCbba/",
+      "whatsapp": "https://api.whatsapp.com/send/?phone=59172700585",
+      "instagram": "https://www.instagram.com/chipotle_cochabamba/?hl=es"
+    }
+  },
+  {
+    "id": 56,
+    "slug": "churros-calientes",
+    "name": "Churros Calientes",
+    "floor": 4,
+    "categories": [
+      "churros",
+      "coctel",
+      "jugos",
+      "cafe",
+      "frape",
+      "helado",
+      "hamburguesa"
+    ],
+    "image": "/img/stores/churros-calientes/cover.jpeg",
+    "logo": "/img/stores/churros-calientes/logo.jpg",
+    "gallery": [
+      "/img/stores/churros-calientes/g1.webp",
+      "/img/stores/churros-calientes/g2.webp",
+      "/img/stores/churros-calientes/g3.webp",
+      "/img/stores/churros-calientes/g4.webp",
+      "/img/stores/churros-calientes/g5.webp",
+      "/img/stores/churros-calientes/g6.webp",
+      "/img/stores/churros-calientes/g7.webp",
+      "/img/stores/churros-calientes/g8.webp",
+      "/img/stores/churros-calientes/g9.webp",
+      "/img/stores/churros-calientes/g10.webp",
+      "/img/stores/churros-calientes/g11.webp",
+      "/img/stores/churros-calientes/g12.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/ChurrosCalientesBO/",
+      "instagram": "https://www.instagram.com/churroscalientesbo/",
+      "whatsapp": "https://wa.me/59160780108"
+    }
+  },
+  {
+    "id": 58,
+    "slug": "monalisa-bier-haus",
+    "name": "Monalisa Bier Haus",
+    "floor": 4,
+    "categories": [
+      "carne",
+      "pastas",
+      "postres",
+      "cerveza",
+      "trago",
+      "coctel",
+      "alitas"
+    ],
+    "image": "/img/stores/monalisa-bier-haus/cover.jpeg",
+    "logo": "/img/stores/monalisa-bier-haus/logo.png",
+    "gallery": [
+      "/img/stores/monalisa-bier-haus/g1.webp",
+      "/img/stores/monalisa-bier-haus/g2.webp",
+      "/img/stores/monalisa-bier-haus/g3.webp",
+      "/img/stores/monalisa-bier-haus/g4.webp",
+      "/img/stores/monalisa-bier-haus/g5.webp",
+      "/img/stores/monalisa-bier-haus/g6.webp",
+      "/img/stores/monalisa-bier-haus/g7.webp",
+      "/img/stores/monalisa-bier-haus/g8.webp",
+      "/img/stores/monalisa-bier-haus/g9.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/MonalisaBierHaus/",
+      "instagram": "https://www.instagram.com/monalisabierhaus/",
+      "whatsapp": "https://wa.me/59177999033"
+    }
+  },
+  {
+    "id": 54,
+    "slug": "patanegra-cocina-espanola",
+    "name": "Patanegra, cocina española",
+    "floor": 4,
+    "categories": [
+      "comida",
+      "española",
+      "calamares",
+      "ensaladas",
+      "pasta",
+      "parrilla",
+      "mariscos"
+    ],
+    "image": "/img/stores/patanegra-cocina-espanola/cover.jpeg",
+    "logo": "/img/stores/patanegra-cocina-espanola/logo.jpg",
+    "gallery": [
+      "/img/stores/patanegra-cocina-espanola/g1.webp",
+      "/img/stores/patanegra-cocina-espanola/g2.webp",
+      "/img/stores/patanegra-cocina-espanola/g3.webp",
+      "/img/stores/patanegra-cocina-espanola/g4.webp",
+      "/img/stores/patanegra-cocina-espanola/g5.webp",
+      "/img/stores/patanegra-cocina-espanola/g6.webp",
+      "/img/stores/patanegra-cocina-espanola/g7.webp",
+      "/img/stores/patanegra-cocina-espanola/g8.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/Patanegrasaborytradicion/",
+      "instagram": "https://www.instagram.com/patanegrabary/",
+      "whatsapp": "https://wa.me/59175977797"
+    }
+  },
+  {
+    "id": 57,
+    "slug": "rissi-s",
+    "name": "Rissi's",
+    "floor": 4,
+    "categories": [
+      "comida",
+      "italiana",
+      "pastas",
+      "cocteles",
+      "tragos"
+    ],
+    "image": "/img/stores/rissi-s/cover.jpeg",
+    "logo": "/img/stores/rissi-s/logo.jpg",
+    "gallery": [
+      "/img/stores/rissi-s/g1.webp",
+      "/img/stores/rissi-s/g2.webp",
+      "/img/stores/rissi-s/g3.webp",
+      "/img/stores/rissi-s/g4.webp",
+      "/img/stores/rissi-s/g5.webp",
+      "/img/stores/rissi-s/g6.webp",
+      "/img/stores/rissi-s/g7.webp"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=100075907429777",
+      "instagram": "https://www.instagram.com/rissis.1/",
+      "whatsapp": "https://wa.me/59163957691"
+    }
+  }
+]
