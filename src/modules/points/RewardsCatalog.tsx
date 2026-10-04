@@ -6,12 +6,15 @@ import { floorLabel } from '@/data/initialData';
 import { formatPts } from '@/lib/utils';
 import { Modal } from '@/components/common/Modal';
 import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
 import { Photo } from '@/components/ui/photo';
 
 /** Imagen del beneficio: la propia o la foto real de la tienda que lo ofrece. */
 export function useRewardImage() {
   const { getStore } = useApp();
-  return (r: Pick<Reward, 'imageUrl' | 'storeId'>) => r.imageUrl ?? (r.storeId ? getStore(r.storeId)?.bannerUrl : undefined) ?? '/img/paseo-edificio.jpg';
+  return (r: Pick<Reward, 'imageUrl' | 'storeId'>) =>
+    r.imageUrl ?? (r.storeId ? getStore(r.storeId)?.bannerUrl : undefined) ?? '/img/paseo-edificio.jpg';
 }
 
 /** Catálogo de beneficios con fotografía de cada tienda y confirmación del canje. */
@@ -45,30 +48,58 @@ export function RewardsCatalog() {
 
   return (
     <>
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {rewards.map((r) => {
           const affordable = currentUser.pointsBalance >= r.costInPoints;
           return (
-            <article key={r.id} className="group">
-              <button onClick={() => setSelected(r)} className="block w-full overflow-hidden rounded-tile">
-                <Photo src={imageFor(r)} alt={r.title} className="aspect-[16/10] w-full transition duration-500 group-hover:scale-[1.02]" />
-              </button>
-              <p className="caption mt-3">{placeOf(r)}</p>
-              <h3 className="mt-0.5 text-[21px] font-semibold leading-tight">{r.title}</h3>
-              <p className="mt-1 text-[15px] text-muted-foreground">{r.description}</p>
-              <div className="mt-3 flex items-center gap-4">
-                <span className="text-[15px] tabular">{formatPts(r.costInPoints)} puntos</span>
+            <Card
+              key={r.id}
+              className="group flex flex-col justify-between overflow-hidden border-border transition-all hover:border-foreground/20 hover:shadow-md"
+            >
+              <div
+                onClick={() => setSelected(r)}
+                className="cursor-pointer overflow-hidden bg-muted"
+              >
+                <div className="relative aspect-[16/10] w-full overflow-hidden">
+                  <Photo
+                    src={imageFor(r)}
+                    alt={r.title}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute top-2.5 left-2.5">
+                    <Badge variant="secondary" className="backdrop-blur-sm bg-background/80 text-[11px]">
+                      {placeOf(r)}
+                    </Badge>
+                  </div>
+                </div>
+              </div>
+
+              <CardHeader onClick={() => setSelected(r)} className="cursor-pointer p-4 pb-2">
+                <CardTitle className="text-base line-clamp-1">{r.title}</CardTitle>
+                <CardDescription className="text-xs line-clamp-2 mt-0.5">
+                  {r.description}
+                </CardDescription>
+              </CardHeader>
+
+              <CardFooter className="flex items-center justify-between border-t border-border/50 p-4 pt-3">
+                <span className="text-sm font-semibold tabular text-white">
+                  {formatPts(r.costInPoints)} pts
+                </span>
                 {r.stock <= 0 ? (
-                  <span className="text-[15px] text-muted-foreground">Agotado</span>
+                  <Badge variant="outline" className="text-xs">
+                    Agotado
+                  </Badge>
                 ) : affordable ? (
-                  <Button size="sm" onClick={() => setSelected(r)}>
+                  <Button size="sm" onClick={() => setSelected(r)} className="rounded-full">
                     Canjear
                   </Button>
                 ) : (
-                  <span className="text-[15px] text-muted-foreground">Te faltan {formatPts(r.costInPoints - currentUser.pointsBalance)}</span>
+                  <span className="text-xs text-muted-foreground">
+                    Faltan {formatPts(r.costInPoints - currentUser.pointsBalance)} pts
+                  </span>
                 )}
-              </div>
-            </article>
+              </CardFooter>
+            </Card>
           );
         })}
       </div>

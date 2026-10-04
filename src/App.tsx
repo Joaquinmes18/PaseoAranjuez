@@ -62,28 +62,42 @@ export default function App() {
   const { tab, currentUser } = useApp();
   return (
     <MotionConfig reducedMotion="user">
-      <div className="flex min-h-dvh flex-col">
-        <Header />
-        <AnimatePresence mode="wait" initial={false}>
-          <motion.main
-            key={`${currentUser.id}-${tab}`}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.18 }}
-            className="flex-1"
-          >
-            <CurrentView />
-          </motion.main>
-        </AnimatePresence>
-        {tab !== 'jarvis' && <Footer />}
-        <BottomNav />
-        <DemoSwitcher />
-        <CartDrawer />
-        <StoreSheet />
-        <CommandPalette />
-        <Toasts />
-        <PointsCelebration />
+      <div className="relative flex min-h-dvh flex-col overflow-x-hidden">
+        {/* Marca de agua ambiental de marca, tenue para no generar ruido visual */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none fixed inset-0 z-0 flex items-center justify-center overflow-hidden"
+        >
+          <img
+            src="/img/paseo-logo.png"
+            alt=""
+            className="w-[920px] max-w-[95vw] select-none opacity-[0.15]"
+          />
+        </div>
+
+        <div className="relative z-10 flex min-h-dvh flex-col">
+          <Header />
+          <AnimatePresence mode="wait" initial={false}>
+            <motion.main
+              key={`${currentUser.id}-${tab}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.18 }}
+              className="flex-1"
+            >
+              <CurrentView />
+            </motion.main>
+          </AnimatePresence>
+          {tab !== 'jarvis' && <Footer />}
+          <BottomNav />
+          <DemoSwitcher />
+          <CartDrawer />
+          <StoreSheet />
+          <CommandPalette />
+          <Toasts />
+          <PointsCelebration />
+        </div>
       </div>
     </MotionConfig>
   );

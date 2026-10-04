@@ -6,7 +6,7 @@ import { NavLinks } from './NavBar';
 
 /** Logo oficial (blanco); se invierte en modo claro. */
 export function Logo({ className }: { className?: string }) {
-  return <img src="/img/paseo-logo.png" alt="Paseo Aranjuez" className={`h-7 w-auto invert dark:invert-0 ${className ?? ''}`} />;
+  return <img src="/img/paseo-logo.png" alt="Paseo Aranjuez" className={`h-7 w-auto ${className ?? ''}`} />;
 }
 
 /** Barra global fina y translúcida, como la de apple.com. */

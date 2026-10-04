@@ -55,22 +55,40 @@ export function ClientPointsView() {
           <NetworkIndicator className="mt-6" />
         </div>
 
-        {/* Tarjeta */}
-        <button onClick={() => setQrOpen(true)} className="aspect-[1.586/1] w-full max-w-md justify-self-center rounded-[20px] bg-[#0D5C3A] p-6 text-left text-white shadow-lift md:justify-self-end">
-          <div className="flex h-full flex-col">
+        {/* Tarjeta estilo Perla / Blanco Hueso */}
+        <button
+          onClick={() => setQrOpen(true)}
+          className="relative aspect-[1.586/1] w-full max-w-md justify-self-center overflow-hidden rounded-[24px] border border-white/60 bg-gradient-to-br from-[#FAF8F5] via-[#F4F1EA] to-[#E9E4DC] p-6 text-left text-[#07012F] shadow-[0_20px_50px_-15px_rgba(255,255,255,0.1),0_10px_25px_-5px_rgba(0,0,0,0.6)] transition-transform duration-300 hover:scale-[1.02] md:justify-self-end"
+        >
+          {/* Reflejo de luz satinado / perla */}
+          <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-white/70 blur-2xl" />
+
+          <div className="relative z-10 flex h-full flex-col">
             <div className="flex items-start justify-between">
-              <img src="/img/paseo-logo.png" alt="Paseo Aranjuez" className="h-8 w-auto" />
+              <img
+                src="/img/paseo-logo.png"
+                alt="Paseo Aranjuez"
+                className="h-11 w-auto invert sm:h-12"
+              />
               <div className="text-right">
-                <p className="text-[11px] uppercase tracking-wider text-white/70">Puntos</p>
-                <p className="text-[28px] font-semibold leading-none tabular">{formatPts(currentUser.pointsBalance)}</p>
+                <p className="text-[11px] font-semibold uppercase tracking-wider text-[#07012F]/60">
+                  PaseoPoints
+                </p>
+                <p className="text-[28px] font-bold leading-none tabular tracking-tight text-[#07012F]">
+                  {formatPts(currentUser.pointsBalance)}
+                </p>
               </div>
             </div>
             <div className="mt-auto flex items-end justify-between">
               <div>
-                <p className="text-[11px] uppercase tracking-wider text-white/70">Miembro</p>
-                <p className="text-[17px] font-medium">{currentUser.name}</p>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-[#07012F]/60">
+                  Titular
+                </p>
+                <p className="text-[16px] font-semibold text-[#07012F]">{currentUser.name}</p>
               </div>
-              <p className="font-mono text-[12px] text-white/70">{shortAddr(currentUser.walletAddress)}</p>
+              <p className="font-mono text-[12px] font-medium text-[#07012F]/70">
+                {shortAddr(currentUser.walletAddress)}
+              </p>
             </div>
           </div>
         </button>
